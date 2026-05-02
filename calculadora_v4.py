@@ -104,17 +104,17 @@ def main():
              break
 
         # TODO 4.4: Valida que la opción sea válida
-         if opcion not in ["1", "2", "3", "4"]:
-             print("❌ Opción no válida")
-        #     continue
+        if opcion not in ["1", "2", "3", "4"]:
+            print("❌ Opción no válida")
+            continue
 
         # TODO 4.5: Obtén los números llamando a la función obtener_numeros()
         num1, num2 = obtener_numeros()
 
         # TODO 4.6: Controla división por cero
-         if opcion == "4" and num2 == 0:
-             print("❌ No se puede dividir por cero")
-             continue
+        if opcion == "4" and num2 == 0:
+            print("❌ No se puede dividir por cero")
+            continue
 
         # TODO 4.7: Llama a la función correspondiente según la opción
         # Nota cómo ahora el código es mucho más limpio
