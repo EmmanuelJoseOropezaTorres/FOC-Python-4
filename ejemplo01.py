@@ -14,4 +14,9 @@ edad = int(input("ingrese su edad: "))
 total = edad + 1500
 print (total)
 
+if (edad < 18):
+    print ("Puede entrar al cine adulto")
+else:
+    print ("----!!!OJO!!! ")
+
  
